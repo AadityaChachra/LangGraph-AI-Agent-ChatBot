@@ -13,7 +13,8 @@ groq_api_key=os.getenv("GROQ_API_KEY")
 
 MODEL_NAMES = [
     "llama-3.3-70b-versatile",  
-    "mixtral-8x7b-32768"  
+    "deepseek-r1-distill-llama-70b",
+    "gemma2-9b-it"  
 ]
 
 tool_tavily = TavilySearchResults(tavily_api_key=os.getenv("TAVILY_API_KEY"), max_results=2)

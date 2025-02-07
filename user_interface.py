@@ -12,7 +12,8 @@ API_URL = f"http://127.0.0.1:{PORT}/chat"
 
 MODEL_NAMES = [
     "llama-3.3-70b-versatile",
-    "mixtral-8x7b-32768"
+    "deepseek-r1-distill-llama-70b",
+    "gemma2-9b-it"
 ]
 
 st.title("LangGraph Chatbot Agent")
