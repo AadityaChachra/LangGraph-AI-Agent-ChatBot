@@ -7,8 +7,7 @@ st.set_page_config(page_title="LangGraph ChatBot Agent", layout="centered")
 
 load_dotenv()
 
-PORT = (int)(os.getenv("PORT"))
-API_URL = f"http://127.0.0.1:{PORT}/chat"
+API_URL = "http://127.0.0.1:8000/chat"
 
 MODEL_NAMES = [
     "llama-3.3-70b-versatile",

@@ -1,0 +1,15 @@
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore environment files (security risk)
+.env
+
+# Ignore __pycache__ and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore unnecessary OS/system files
+.DS_Store
+Thumbs.db
